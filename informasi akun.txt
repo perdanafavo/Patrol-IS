@@ -1,0 +1,8 @@
+akun hosting
+https://patrolis.000webhostapp.com/
+email : alfianaf@student.undip.ac.id
+password : patrolis
+
+database (di dalam hosting)
+user : id8416658_kapesu
+password : kapesu123

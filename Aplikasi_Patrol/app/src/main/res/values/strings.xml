@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PATROLIS</string>
+    <string name="presensi_form">PRESENSI FORM</string>
+    <string name="nama">NAMA</string>
+    <string name="tanggal">TANGGAL</string>
+    <string name="jam">JAM</string>
+    <string name="na">N/A</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#85002f</color>
+    <color name="colorPrimaryDark">#c12325</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ceffffff</color>
+    <color name="absenst">#fff1f1</color>
+    <color name="absened">#d64d4d</color>
+    <color name="absened2">#251717</color>
+    <color name="whitet">#6e000000</color>
+    <color name="blackte">#5b352020</color>
+    <color name="bmcolor">#cdff5252</color>
+    <color name="whitea">#c1ffffff</color>
+    <color name="orange">#be2629</color>
+    <color name="truewhite">#ffffff</color>
+</resources>

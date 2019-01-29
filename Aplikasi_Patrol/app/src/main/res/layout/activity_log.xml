@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".Activity.Log.LogActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/lokasiLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whitea"
+            android:text="-"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2">
+
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout3">
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="LOG ACTIVITY"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="21dp"
+            android:textColor="@color/whitea"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            />
+    </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listlog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/layout4"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="2dp">
+        </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpresensi"
+    tools:context=".Activity.LoginActivity"
+    android:id="@+id/wrapPresensi">
+    <RelativeLayout
+        android:id="@+id/layoutatas"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/blackte"
+        >
+        <TextView
+            android:id="@+id/primary_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/presensi_form"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/media_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/layoutatas"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logotelkom" />
+
+    <RelativeLayout
+        android:id="@+id/layoutnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/media_image"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/presenNama2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/nama"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/presenNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/presenNama2"
+            android:layout_marginStart="167dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/na"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/presenTgl2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutnama"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/tanggal"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="26sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/presenTgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutnama"
+        android:layout_alignStart="@id/presenTgl2"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/na"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="26sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/presenJam2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/presenTgl"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/jam"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="26sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/presenJam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/presenTgl"
+        android:layout_alignStart="@id/presenJam2"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="@string/na"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="26sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnPresent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_hadir"
+        android:text="Hadir"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+</RelativeLayout>
